@@ -1,0 +1,87 @@
+
+
+  <div class="top">
+    <h1>Farmer Subsidy Database Management</h1>
+  </div>
+  <form #myForm="ngForm">
+    
+      <div class="fle">
+      <div class="top1">
+      
+        <div class="tom">
+          <label for="farmerId">Farmer Id:</label>
+          <br>
+          <input type="text" name="farmerId" #farmerId="ngModel" ngModel>
+          <br>
+          <label for="farmerName">Farmer Name:</label>
+          <br>
+          <input type="text" name="farmerName" #farmerName="ngModel" ngModel>
+          <br>
+          <label for="farmerSubsidy">Farmer Subsidy:</label>
+          <br>
+          <input type="text" name="farmerSubsidy" #farmerSubsidy="ngModel" ngModel>
+          <br>
+          <button type="button" (click)="InsertSubsidy(myForm.value)">Insert</button>
+          <button type="button" (click)="UpdateSubsidy(myForm.value)">update</button>
+          <button type="button" (click)="DeleteSubsidy(myForm.value)">Delete</button>
+          <button type="button" (click)="FindSubsidy(myForm.value)">Find</button>
+          <button type="button" (click)="FindAllSubsidy()">FindAll</button>
+          <br>
+        </div>
+      </div>
+    </div>
+     
+    </form>
+  <br>
+  <h3>{{result}}</h3>
+
+
+ 
+
+
+ <div style="width: 100%;" *ngIf="flag">
+ <div class="jerry">
+  <h2>Farmer Subsidy List</h2>
+
+  <table border="1px" solid cellpadding="50" cellspacing="0" align="center">
+    <tr><th>FARMER CARD NO</th>
+    <th>FARMENAME</th>
+    <th>FARMERSUBSIDY</th></tr>
+
+    <tr *ngFor="let sub of subsidyArr">
+      <td>{{sub.id}}</td>
+      <td>{{sub.farmerName}}</td>
+      <td>{{sub.farmerSubsidy}}</td>
+    </tr>
+
+    
+  </table>
+</div>
+  
+  
+  </div>
+
+
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+

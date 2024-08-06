@@ -1,0 +1,44 @@
+{
+  "Subsidy": [
+    {
+      "id": "101",
+      "farmerName": "Mariyappan",
+      "farmerSubsidy": "2000"
+    },
+    {
+      "id": "102",
+      "farmerName": "Murugeshan",
+      "farmerSubsidy": "1200"
+    },
+    {
+      "id": "103",
+      "farmerName": "periyasamy",
+      "farmerSubsidy": "2000"
+    },
+    {
+      "id": "104",
+      "farmerName": "karuppasamy",
+      "farmerSubsidy": "2000"
+    },
+    {
+      "id": "105",
+      "farmerName": "Chelladurai",
+      "farmerSubsidy": "2000"
+    },
+    {
+      "id": "106",
+      "farmerName": "Marimuthu",
+      "farmerSubsidy": "2000"
+    },
+    {
+      "id": "107",
+      "farmerName": "Muthuvel",
+      "farmerSubsidy": "2000"
+    },
+    {
+      "id": "108",
+      "farmerName": "Ramasamy",
+      "farmerSubsidy": "2000"
+    }
+  ]
+}

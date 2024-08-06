@@ -1,0 +1,39 @@
+{
+  "employees": [
+    {
+      "id": "102",
+      "empName": "yuvaraj",
+      "empSalary": "10000"
+    },
+    {
+      "id": "103",
+      "empName": "selvam",
+      "empSalary": "20000"
+    },
+    {
+      "id": "101",
+      "empName": "ARUN KUMAR",
+      "empSalary": "20000"
+    },
+    {
+      "id": "104",
+      "empName": "PRAVEEN KUMAR",
+      "empSalary": "30000"
+    },
+    {
+      "id": "105",
+      "empName": "RAMESH KUMAR",
+      "empSalary": "50000"
+    },
+    {
+      "id": "106",
+      "empName": "RANJITH KUMAR",
+      "empSalary": "60000"
+    },
+    {
+      "id": "107",
+      "empName": "PREM KUMAR",
+      "empSalary": "60000"
+    }
+  ]
+}
